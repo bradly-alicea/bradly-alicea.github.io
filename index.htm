@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phylogenetically‑Mixed Architectures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <h1>Phylogenetically‑Mixed Architectures</h1>
+
+        <div class="button-row">
+            <button class="hero-btn"><A HREF="https://www.preprints.org/manuscript/202604.0704">Preprint</A></button>
+            <button class="hero-btn">  
+			<A HREF="https://github.com/bradly-alicea/Phylogenetically-Mixed-Architectures">Github Repo</A>
+			</button>
+            <button class="hero-btn"><A HREF="https://youtube.com">Presentation</A></button>
+        </div>
+
+        <p class="subtitle">A general‑audience introduction to evolutionary AI design</p>
+    </header>
+
+    <section class="content">
+        <h2>Big Picture</h2>
+        <p>
+            Animals don’t rely on one giant, monolithic brain. Instead, they combine many specialized modules: vision, movement, reflexes, planning—each shaped by evolution. This is summarized as the phylogenetic position of embodied cognition. 
+			
+            Phylogenetically‑mixed architectures apply this idea to embodied computational agents: evolve many components, then mix and match the best ones into a flexible agent.
+			
+			Phylogenetically-derived lineages are branching events that denote evolved components. Such lineages are controlled by two fitness functions: a fitness function that conserves lineage properties, and a creative fitness function that rewards deviations from mean lineage behavior.
+			
+			This work was developed in conjuntion with Microsoft CoPilot, which generated code for the models, helped to construct the benchmarking datasets, and provided a basis for the visualizations. 
+        </p>
+
+        <h2>What Is a Phylogenetically‑Mixed Architecture?</h2>
+        <p>
+            The components of phylogenetically-mized architectures are derived from different evolutionary lineages that are reticulated via a hypergraph. Instead of training one model, the system generates many candidates, evaluates them, and assembles the best into a larger architecture. This larger architecture is characterized by multiple types of hypergraph. In the <A HREF="https://www.preprints.org/manuscript/202604.0704">paper</A>, two types of hypergraphs are used: bipartite and compositional. The bipartite graph is derived from concepots and beahviors representing a classic Cognitive Science thought experiment. The compositional graph is derived from different configurations of parts.
+        </p>
+
+        <h2>How the Pipeline Works</h2>
+        <ul>
+            <li><strong>Source:</strong> Reservoir networks and diffusion processes generate variation.</li>
+            <li><strong>Generator:</strong> A GAN explores the space and proposes new designs.</li>
+            <li><strong>Selector:</strong> Evolutionary algorithms choose the best candidates.</li>
+            <li><strong>Assembler:</strong> Hypergraphs combine components into multi‑scale architectures.</li>
+        </ul>
+
+        <h2>Demonstration Examples</h2>
+        <p>
+            The paper illustrates the pipeline using simple shapes and Braitenberg Vehicles, showing
+            how evolutionary trees and hypergraphs can organize and recombine traits.
+        </p>
+
+        <h2>Why It Matters</h2>
+        <p>
+            This approach supports more adaptable, embodied AI systems—agents that can integrate
+            multiple sensory systems, motor strategies, and behavioral modules.
+        </p>
+    </section>
+
+    <footer>
+		<IMG SRC="bottom-banner.jpg" alt="Orthogonal Research and Education Laboratory">
+		<IMG SRC=CC-BY.png HEIGHT = 40 WIDTH = 100>
+    </footer>
+
+</body>
+</html>
